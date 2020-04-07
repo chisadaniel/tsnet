@@ -1,0 +1,9 @@
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\bin\Debug\netcoreapp3.0\GrpcGreeterClient.exe
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\obj\Debug\netcoreapp3.0\GrpcGreeterClient.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\obj\Debug\netcoreapp3.0\GrpcGreeterClient.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\obj\Debug\netcoreapp3.0\GrpcGreeterClient.AssemblyInfo.cs
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\bin\Debug\netcoreapp3.0\Grpc.Core.Api.dll
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\bin\Debug\netcoreapp3.0\Grpc.Net.Client.dll
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\bin\Debug\netcoreapp3.0\Grpc.Net.Common.dll
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\acer\source\repos\GrpcGreeterClient\GrpcGreeterClient\obj\Debug\netcoreapp3.0\GrpcGreeterClient.csproj.CopyComplete
