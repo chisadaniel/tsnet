@@ -1,0 +1,8 @@
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\bin\Debug\netstandard1.5\Greeter.deps.json
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\bin\Debug\netstandard1.5\Greeter.dll
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\bin\Debug\netstandard1.5\Greeter.pdb
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.csprojAssemblyReference.cache
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.AssemblyInfoInputs.cache
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.AssemblyInfo.cs
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.dll
+D:\dotnet\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.pdb
