@@ -1,0 +1,11 @@
+C:\Users\acer\source\repos\PostComment\PostComment\obj\Debug\PostComment.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\PostComment\PostComment\bin\Debug\PostComment.dll.config
+C:\Users\acer\source\repos\PostComment\PostComment\bin\Debug\PostComment.dll
+C:\Users\acer\source\repos\PostComment\PostComment\bin\Debug\PostComment.pdb
+C:\Users\acer\source\repos\PostComment\PostComment\bin\Debug\EntityFramework.dll
+C:\Users\acer\source\repos\PostComment\PostComment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acer\source\repos\PostComment\PostComment\bin\Debug\EntityFramework.xml
+C:\Users\acer\source\repos\PostComment\PostComment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\source\repos\PostComment\PostComment\obj\Debug\PostComment.csproj.CopyComplete
+C:\Users\acer\source\repos\PostComment\PostComment\obj\Debug\PostComment.dll
+C:\Users\acer\source\repos\PostComment\PostComment\obj\Debug\PostComment.pdb

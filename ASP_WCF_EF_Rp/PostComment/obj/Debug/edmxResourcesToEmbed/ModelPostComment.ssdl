@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelPostComment.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelPostCommentStoreContainer">
+    <EntitySet Name="PostSet" EntityType="ModelPostComment.Store.PostSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CommentSet" EntityType="ModelPostComment.Store.CommentSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="PostComment" Association="ModelPostComment.Store.PostComment">
+      <End Role="Post" EntitySet="PostSet" />
+      <End Role="Comment" EntitySet="CommentSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="PostSet">
+    <Key>
+      <PropertyRef Name="PostId" />
+    </Key>
+    <Property Name="PostId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Domain" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Date" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CommentSet">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PostPostId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Post_PostId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PostComment">
+    <End Role="Post" Type="ModelPostComment.Store.PostSet" Multiplicity="1" />
+    <End Role="Comment" Type="ModelPostComment.Store.CommentSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostId" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="Post_PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

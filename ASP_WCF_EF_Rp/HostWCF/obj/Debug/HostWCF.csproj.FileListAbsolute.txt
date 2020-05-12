@@ -1,0 +1,16 @@
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\HostWCF.exe.config
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\HostWCF.exe
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\HostWCF.pdb
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\ObjectWCF.dll
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\PostComment.dll
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\EntityFramework.dll
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\PostComment.pdb
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\PostComment.dll.config
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\EntityFramework.xml
+C:\Users\acer\source\repos\PostComment\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\PostComment\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+C:\Users\acer\source\repos\PostComment\HostWCF\obj\Debug\HostWCF.exe
+C:\Users\acer\source\repos\PostComment\HostWCF\obj\Debug\HostWCF.pdb
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\acer\source\repos\PostComment\HostWCF\bin\Debug\System.ServiceModel.Primitives.pdb
