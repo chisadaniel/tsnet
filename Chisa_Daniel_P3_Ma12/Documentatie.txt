@@ -1,0 +1,23 @@
+Proiectul de ASP.net core este sub denumirea de GalleryApp
+Veti observa doua obiecte WCF aplicatia utileaza doar unul, niste foldere setup, incercasem mai demult sa creez un shorcut pe desktop...
+
+Proiectul 3
+
+Urmand pasii de la laborator, am conectat serviciul WCF ca referinta pentru proietul ASP. (Service Reference) 
+Prin intemediul clasei create ServiceReferenceClient am realizat comunicarea dintre asp si wcf printr-un obiect al clasei denumit client.
+Comunicare se realizeaza in Index.cshtml.cs unde aduc datele in metoda OnGetAsync(), se salveaza in liste.
+Exemplu de operatii in Index.cshtml.cs:
+-aducerea tuturor proprietatilor din galerie
+-sortarea alfabetica
+-eliminarea duplicatelor
+-pe baza textului din bara de cautare:
+	-transmite textul la serviciul wcf in functie de acest text intoarce rezultatele.
+	-aducerea tagurilor aferente  fiecarei poze/clip din rezultat
+	-aducerea caii catre imagine/clip pentru afisare
+Informatiile sunt preluate apoi in Index.cshtml pentru a afisa tagurile/proprietatile tuturor obiectelor din galerie.
+Am adaugat cateva stilizari paginii principale(CSS) pentru un aspect mai frumos.
+Am adaugat doua functii(JS) in "site.js" pentru a crea doua lucruri:
+-cand exista text in bara de cautare si se apasa click pe text, se sterge automat acel text
+-cand se apasa click pe un tag/proprietate automat sa se afiseze rezultatele cautarii(varianta mai simpla de a nu introduce manual de la tastatura).
+
+In directorul wwwroot am creat un nou folder "Poze" in care am pus toate pozele si videoclipurile necesare aplicatiei. Aplicatia asp de aici le incarca in pagina sub forma de path. Path care este salvat in baza de date.
